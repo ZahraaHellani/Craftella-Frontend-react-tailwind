@@ -13,7 +13,7 @@
     "@types/react-dom": "^19.2.3",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^7.11.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -40,5 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "file:../../../../packages/autoprefixer-10.4.0.tgz",
+    "postcss": "file:../../../../packages/postcss-8.4.0.tgz",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "file:../../../../packages/tailwindcss-3.3.0.tgz"
   }
 }
